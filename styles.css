@@ -1,0 +1,44 @@
+.hidden{
+    display:none;
+}
+
+*{
+    font-family: sans-serif;
+    color: white;
+}
+
+header{
+    display: block;
+    height: 150px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+main{
+    display: block;
+    margin: 0 auto;
+    width: 960px;
+    position: absolute;
+    left: 40%;
+    right: 60%;
+    margin-top: 100px;
+}
+
+#intro{
+    float: left;
+    width: 400px;
+}
+
+#info{
+    float: right;
+}
+
+.input{
+    height: 30px;
+    border: 3px solid black;
+    color: black;
+}
+
+.button{
+    background-color: black;
+}
